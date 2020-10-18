@@ -1,0 +1,49 @@
+body{
+    font-family: 'Nanum Brush Script', cursive;
+    background-color: #ccc;
+    font-weight: bold;
+    font-size: 1.15em;
+    padding: 0 15px;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'Seaweed Script', cursive;
+}
+div.polaroid{
+    box-shadow: 4px 4px 11px 0px #999;
+    max-width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 25px;
+    border: 1px solid #ddd;
+}
+
+.captionName{
+    color:#333;
+    font-weight: normal;
+    margin: 5px 0
+}
+
+img{
+    max-width: 240px;
+}
+
+#meShip{
+    float: right;
+    transform: rotate(3deg);
+}
+
+#meBooty{
+    clear: right;
+    float: left;
+    transform: rotate(-3deg);
+}
+
+
