@@ -1,0 +1,40 @@
+* {
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+  padding: 3px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    flex-grow: 50;
+}
+
+main{
+    display: flex;
+    min-height: 200px;
+}
+
+article{
+    width: 75%
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
