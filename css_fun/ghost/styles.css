@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: midnightblue;
+}
+
+.ghost{
+    z-index: 2;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 70px 70px 0 0;
+    margin: 22em 45% 10em;
+}
+
+.ghost::after{
+    content: "";
+    position: absolute;
+    width:20px;
+    height: 20px;
+    top:4.7em;
+    left: 50;
+    border-radius: 0 0 70px 70px;
+    background-color: white;
+    box-shadow: 20px 0 0 0 white,
+    40px 0 0 0 white,
+    60px 0 0 0 white;
+    z-index: 3'
+}
+
+.bottom1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 90px 15px;
+    box-shadow: 0 -5px 0 0  white;
+    z-index: 4;
+}
+
+.bottom2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 90px 35px;
+    box-shadow: 0 -5px 0 0  white;
+    z-index: 4;
+}
+
+.bottom3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 90px 55px;
+    box-shadow: 0 -5px 0 0  white;
+    z-index: 4;
+}
+
+
+.eye{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 40px 15px;
+}
+
+.eye::after{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 0px 40px;
+}
+
+.mouth{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 35px 27.5px;
+    box-shadow: 0 5px 0 -1px black;
+}
+
+.shadow{
+    position: absolute;
+    background-color: #45597e;
+    opacity: .5;
+    height: 15px;
+    width: 70px;
+    border-radius: 50%;
+    margin: -8em 45.25% 10em;
+}
+
+.ghost{
+    animation: float 5s infinite;
+}
+
+.shadow{
+    animation: shrink 5s infinite;
+}
+
+@keyframes float{
+    50%{
+        transform: translatey(-20px);
+    }
+}
+
+@keyframes shrink{
+    0%, 100%{
+        transform: scale(.9);
+    }
+    50%{
+       transform: scale(.7);
+    }
+}
