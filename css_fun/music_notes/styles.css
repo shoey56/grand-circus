@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: lightblue;
+}
+
+section {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    min-width: 300px;
+    height: 200px;
+    border: 0px solid #000;
+  } 
+
+  .note1,
+  .note2,
+  .note3,
+  .note4,
+  .note5,
+  .note6,
+  .note7,
+  .note8 {
+    position: absolute;
+    animation: notes 2s infinite linear;
+    font-size: 35px;
+    opacity: 0;
+  }
+
+  .note1{
+    top: 60px;
+    left: 0;
+  }
+
+  .note2{
+      top:90px;
+      left: 15%;
+      animation-delay: 1s;
+  }
+
+  .note3{
+      top:30px;
+      left: 60%;
+      animation-delay: .5s;
+  }
+
+  .note4{
+      top:60px;
+      left: 80%;
+      animation-delay: 1.5s;
+  }
+
+  .note5{
+    top:90px;
+    left: 40%;
+    animation-delay: 2s;
+}
+
+.note6{
+    top:30px;
+    left: 30%;
+    animation-delay: 1.5s;
+}
+
+.note7{
+    top:60px;
+    left: 70%;
+    animation-delay: 1.25s;
+}
+
+.note8{
+    top:90px;
+    left: 50%;
+    animation-delay: .25s;
+}
+
+
+
+
+
+
+
+  @keyframes notes {
+    0% {
+      transform: scale(1) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5) translate(50%, -50%);
+    }
+    80% {
+      opacity: 0;
+      transform: scale(1.5) translate(100%, -100%);
+    }
+    100% {
+      transform: scale(1.5) translate(100%, -100%);
+      opacity: 0;
+    }
+  }
+  
