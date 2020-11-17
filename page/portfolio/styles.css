@@ -1,0 +1,102 @@
+body{
+  background-color: #303841;
+}
+
+nav{
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em;
+  display: fixed;
+  position: sticky;
+  top: 0;  
+  z-index: 1;
+}
+
+nav a{
+  text-decoration: none;
+  font-size:1.5em;
+  padding: 0 1em;
+  color: darkblue;
+  font-weight: bold;
+  
+}
+
+#welcome-section{
+  height: 100vh;
+  text-align: center;
+  top: 2em;
+ }
+
+#welcome-section div{
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+  font-size: 3em;
+  margin-bottom: .5em;
+  color: white;
+}
+
+p{
+  color: lightblue;
+  font-size: 1.25em;
+}
+
+#projects{
+  background-color: lightpink;
+  height: 800px;
+}
+
+h2{
+  text-align: center;
+  padding-top: 3em;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.project-grid{
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.project-tile{
+  height: 200px;
+  background-color: #303841;
+  width: 30vw;
+  margin-bottom: 2em;
+   text-decoration: none;
+}
+
+h3{
+  color:white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 50px;
+}
+
+#showAll{
+  background-color: #303841;
+  padding: 1em 1.3em;
+  color: white;
+  text-decoration:none;
+  font-size: 1.5em;
+  margin-left: 42.5vw;
+  margin-top: 5em;
+}
+
+#contact{
+  height: 100vh
+}
+
+.contactSection{
+  text-align:center;
+  text-decoration: none;
+  color: lightblue;
+}

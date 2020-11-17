@@ -1,0 +1,129 @@
+main{
+    background-color: tan;
+    padding: 10px 0 4rem 0;
+}
+
+a img{
+    height: 2rem;
+    width: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: darkgrey;
+}
+
+.nav-item{
+    border-right: 2.5px solid tan;
+    border-left: 2.5px solid tan;
+    padding: 1rem 1rem;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    width: 100%;
+}
+
+.top-logo{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+#nearby-dogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: wheat;
+    padding: 0 5px;
+}
+
+.dog-tile{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width:35vw;
+    background-color: tan;
+    text-decoration: none;
+    color: black;
+}
+
+.profile-pic-tile{
+    width: 5rem;
+    height: 5rem;
+}
+
+#ratings{
+    height: 1rem;
+    width: 35%;
+}
+
+.see-more-section{
+    margin: 1.5rem auto;
+}
+
+.see-more{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: tan;
+    color: black;
+    padding: 5px;
+}
+
+#location{
+    padding: 10px 5px;
+    text-align: center;
+}
+
+#location > *{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+
+input{
+    border-radius: 5px;
+    background-color: wheat;
+    padding: .25rem;
+    border: none;
+}
+
+#available-to-meet{
+    margin: 1.5rem auto;
+}
+
+#available-to-meet > a{
+    background-color: wheat;
+}
+
+#upcoming-events{
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: wheat;
+    padding: 0 5px;
+}
+
+.event-tile{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width:35vw;
+    background-color: tan;
+}
+
+#more-events{
+    margin: 1.5rem auto;
+}

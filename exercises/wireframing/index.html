@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-item">
+                <a id="home" href=""><img src="paw-print-icon.png"></a>
+            </div>
+            <div class="nav-item">
+                <a id="favorites" href=""><img src="star-icon.png"></a>
+            </div>
+            <div class="nav-item">
+                <a id="contacts" href=""><img src="contacts-icon.png"></a>
+            </div>
+            <div class="nav-item">
+                <a id="calendar" href=""><img src="calendar-icon.png"></a>
+            </div>
+            <div class="nav-item">
+                <a id="maps" href=""><img src="maps-icon.png"></a>
+            </div>
+            <div class="nav-item">
+                <a id="settings" href=""><img src="settings-icon.png"></a>
+            </div>
+        </nav>
+
+    <main>
+        <h1><img src="paw-print-icon.png" class="top-logo"> Welcome Back!</h1>
+        <section id="nearby-dogs">
+            <h2>Nearby Requests:</h2>
+            <a class="dog-tile" href="">
+                <img src="dog-temp-img.png" class="profile-pic-tile">
+                <p>Scout - German Shepard</p>
+                <img src="ratings.png" id="ratings">
+            </a>
+            <a class="dog-tile" href="">
+                <img src="dog-temp-img.png" class="profile-pic-tile">
+                <p>Pebbles - Shetland Sheepdog</p>
+                <img src="ratings.png" id="ratings">
+            </a>
+            <div class="see-more-section">
+                <a href="" class="see-more" id="more-nearby-requests">More Nearby Requests</a>
+            </div>
+        </section>
+        <section id="location">
+            <img src="Google-Maps.jpg">
+            <input name="change-location" placeholder="Select New Location">
+            <div id="available-to-meet"><a class="see-more" href="">Show as Available to Meet</a></div>
+        </section>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <div class="events-tiles-section">
+                <div class="event-tile">
+                    <p>Event Name</p>
+                    <p>Event Time</p>
+                    <p>Event Location</p>
+                </div>
+            </div>
+            <div class="events-tiles-section">
+                <div class="event-tile">
+                    <p>Event Name</p>
+                    <p>Event Time</p>
+                    <p>Event Location</p>
+                </div>
+            </div>
+            <div id="more-events"><a class="see-more" href="">See More Events</a></div>
+        </section>
+    </main>
+    </body>
+</html>
