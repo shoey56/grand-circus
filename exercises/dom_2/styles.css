@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+}
+
+#hamburger{
+   padding-right: 5px;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+nav{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 0;
+    background-color: white;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#paragraphs{
+    font-size: 20px;
+    padding:0 75px;
+}
+
+.hidden{
+    display: none;
+}
+
+.nav-showing{
+    width: 75px;
+    transition: 2s;
+    border: black solid 1px;
+    padding: 5px;
+}
